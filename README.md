@@ -5,7 +5,8 @@
 
 ## Repository structure
 * `/data` data folder, included in `.gitignore`
-* `/src` training and inference code
+* `/generate` code used to generate the Python `captcha` dataset
+* `/captcha` a local version of the [captcha](https://github.com/lepture/captcha) library, modified so bounding boxes are extractable
 * `/tex` source files for the report (compile using pdfLaTeX and BibTeX)
 
 ## Project outcomes
