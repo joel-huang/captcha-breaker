@@ -348,7 +348,7 @@ class BWCaptcha(_Captcha):
                        DATA_DIR + 'GenBasB.ttf',
                        DATA_DIR + 'GenBasI.ttf',
                        DATA_DIR + 'GenBasR.ttf']
-        self._font_sizes = font_sizes or (56, 60, 64)
+        self._font_sizes = font_sizes or (50, 55, 60)
         self._truefonts = []
 
     @property
