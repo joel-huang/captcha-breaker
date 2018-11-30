@@ -396,7 +396,7 @@ class BWCaptcha(_Captcha):
         char_list = []
 
         for c in chars:
-            if random.random() > 0.4:
+            if random.random() > 0.3:
                 images.append(_draw_character(font, " "))
                 char_list.append(" ")
             images.append(_draw_character(font, c))
@@ -409,7 +409,7 @@ class BWCaptcha(_Captcha):
 
         average = int(text_width / len(chars))
         rand = int(0.25 * average)
-        offset = int(average * 0.3)
+        offset = int(average * 0.1)
 
         bboxes = []
 
