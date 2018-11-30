@@ -207,7 +207,7 @@ class SUTDCaptcha(_Captcha):
         self._height = height
         self._fonts = [DATA_DIR + 'Roboto-Regular.ttf',
                        DATA_DIR + 'DroidSansMono.ttf']
-        self._font_sizes = font_sizes or (40, 44, 48, 52, 56)
+        self._font_sizes = font_sizes or (40, 44, 48, 52)
         self._truefonts = []
 
     @property
