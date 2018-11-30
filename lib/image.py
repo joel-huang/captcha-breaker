@@ -185,6 +185,8 @@ class ColorCaptcha(_Captcha):
         background = random_color(238, 255)
         color = random_color(10, 200, 255)
         im, boxes = self.create_captcha_image(chars, color, background)
+        while boxes_invalid(boxes):
+            im, boxes = self.create_captcha_image(chars, color, background)
         if self._dots:
             self.create_noise_dots(im, color)
         if self._curve:
@@ -207,7 +209,7 @@ class SUTDCaptcha(_Captcha):
         self._height = height
         self._fonts = [DATA_DIR + 'Roboto-Regular.ttf',
                        DATA_DIR + 'DroidSansMono.ttf']
-        self._font_sizes = font_sizes or (40, 44, 48, 52)
+        self._font_sizes = font_sizes or (40, 44, 48, 52, 56)
         self._truefonts = []
 
     @property
@@ -322,6 +324,8 @@ class SUTDCaptcha(_Captcha):
         background = (255,255,255,255)
         color = (random.randint(8,14),random.randint(130,150),random.randint(8,14),255)
         im, boxes = self.create_captcha_image(chars, color, background)
+        while boxes_invalid(boxes):
+            im, boxes = self.create_captcha_image(chars, color, background)
         im = im.filter(ImageFilter.SMOOTH)
         if bbox:
             return im, boxes
@@ -456,6 +460,8 @@ class BWCaptcha(_Captcha):
         background = (255,255,255)
         color = random_color(0, 0, opacity=255)
         im, boxes = self.create_captcha_image(chars, color, background)
+        while boxes_invalid(boxes):
+            im, boxes = self.create_captcha_image(chars, color, background)
         im = im.filter(ImageFilter.SMOOTH)
         if bbox:
             return im, boxes
@@ -473,3 +479,11 @@ def random_color(start, end, opacity=None):
     if opacity is None:
         return (red, green, blue)
     return (red, green, blue, opacity)
+
+def boxes_invalid(boxes):
+    for box in boxes:
+        if box[3] > 75:
+            return True
+        if box[2] > 200:
+            return True
+    return False
