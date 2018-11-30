@@ -11,8 +11,8 @@ from lib.image import SUTDCaptcha
 from lib.image import BWCaptcha
 from lib.image import draw_rect
 
-NUM_TRAIN = 40
-NUM_TEST = 10
+NUM_TRAIN = 40000
+NUM_TEST = 10000
 
 def makedirs(path):
     # Intended behavior: try to create the directory,
@@ -54,8 +54,6 @@ def make_data(type):
         n_len = 4
         random_str = ''.join([random.choice(characters) for j in range(n_len)])
         img, boxes = bw_generator.generate_image(random_str, bbox=True)
-        img=img.resize((72,24))
-        img=img.resize((200,75))
         return random_str, img, boxes
         
     else:
@@ -71,7 +69,7 @@ ratios = {'color':  0.7,
 
 col_generator = ColorCaptcha(width=200, height=75, curve=True, dots=True)
 sutd_generator = SUTDCaptcha(width=200, height=75)
-bw_generator = BWCaptcha(width=72, height=24, scale_factor=3)
+bw_generator = BWCaptcha(width=200, height=75, scale_factor=1)
 
 ftrain = open("data/bboxes_train.csv","w+")
 # generate train set, index images to avoid rare clashing
