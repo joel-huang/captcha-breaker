@@ -6,6 +6,7 @@ import random
 import string
 import numpy as np
 from PIL import Image
+
 from lib.image import ColorCaptcha
 from lib.image import SUTDCaptcha
 from lib.image import BWCaptcha
