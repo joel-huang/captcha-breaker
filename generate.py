@@ -11,8 +11,8 @@ from lib.image import SUTDCaptcha
 from lib.image import BWCaptcha
 from lib.image import draw_rect
 
-NUM_TRAIN = 40
-NUM_TEST = 10
+NUM_TRAIN = 40000
+NUM_TEST = 10000
 
 def makedirs(path):
     # Intended behavior: try to create the directory,
