@@ -1,8 +1,92 @@
 \relax 
+\citation{cc}
+\citation{readingtext}
+\citation{stark2015captcha}
+\citation{zhaocaptcha}
+\citation{resnet}
+\citation{fl}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Data}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Model}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Experiments}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion and Conclusion}{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}References}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem Framing}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Methodology}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Common types of text-based CAPTCHAs used on the web\relax }}{2}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:captchaexamples}{{1}{2}}
+\citation{synth}
+\citation{fl}
+\citation{readingtext}
+\citation{synth}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Organic CAPTCHA classes\relax }}{3}}
+\newlabel{fig:organic}{{2}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Dataset and Visualization}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Terminology}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Gathering Organic Data}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Learning labels from Synthetic Data}{3}}
+\newlabel{fig:sub1}{{3a}{3}}
+\newlabel{sub@fig:sub1}{{a}{3}}
+\newlabel{fig:sub2}{{3b}{3}}
+\newlabel{sub@fig:sub2}{{b}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Comparison between organic and synthetic\relax }}{3}}
+\newlabel{fig:test}{{3}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Deep learning for annotation}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Synthetic Data}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Uniform random character sampling}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Noise generation}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.3}Color randomization}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.4}Font selection}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.5}Alignment and size}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Visualizations}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}Relationship analysis using PCA \& t-SNE}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Data Processing}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Early attempts at algorithmic character segmentation}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Distribution of characters in dataset. Notice that the overall dataset is not uniform distributed. The observed counts for letters are significantly less than digits. This is because the lowercase letters are not rendered for the black and white class, uppercase letters are not rendered for the noiseless class, while digits are rendered for all classes. \relax }}{5}}
+\newlabel{fig:distribution}{{4}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Color, noiseless and BW class characters for PCA and t-SNE\relax }}{6}}
+\newlabel{fig:pcachars}{{5}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Principal components of the noiseless and BW sets\relax }}{6}}
+\newlabel{fig:pca}{{6}{6}}
+\citation{otsu}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces t-SNE plots of the color and BW sets\relax }}{7}}
+\newlabel{fig:tsne}{{7}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Otsu Thresholding}{7}}
+\citation{fl}
+\citation{yolov3}
+\citation{ssd}
+\citation{fpn}
+\citation{faster}
+\citation{fl}
+\citation{resnet}
+\citation{adam}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Pre- and post-Otsu thresholding\relax }}{8}}
+\newlabel{fig:otsu}{{8}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Model Architecture}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Backbone}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Classification}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Regression}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Training}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation Results}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Results: mAP (black) and number test instances (pink) per character\relax }}{9}}
+\newlabel{fig:results}{{9}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces A sample test result on the color set\relax }}{9}}
+\newlabel{fig:sample1}{{10}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces A sample test result on the noiseless set\relax }}{10}}
+\newlabel{fig:sample2}{{11}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Failure case on the color set, the only set with noise. We are unable to produce a failure case example for the noiseless and BW sets.\relax }}{10}}
+\newlabel{fig:failure}{{12}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces A test on the unseen set. This CAPTCHA type has never been seen by our model during training. Of the 6 characters in this string, 3q5bed, we are able to correctly predict 5 characters: 3, q, b, e, and d.\relax }}{11}}
+\newlabel{fig:unseen}{{13}{11}}
+\bibdata{main}
+\bibcite{cc}{1}
+\bibcite{resnet}{2}
+\bibcite{readingtext}{3}
+\bibcite{adam}{4}
+\bibcite{fpn}{5}
+\bibcite{fl}{6}
+\bibcite{ssd}{7}
+\bibcite{otsu}{8}
+\bibcite{yolov3}{9}
+\bibcite{faster}{10}
+\bibcite{stark2015captcha}{11}
+\bibcite{synth}{12}
+\bibcite{zhaocaptcha}{13}
+\bibstyle{abbrv}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{12}}

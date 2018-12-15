@@ -1,0 +1,73 @@
+\begin{thebibliography}{10}
+
+\bibitem{cc}
+R.~Fortune, G.~Luu, and P.~McMahon.
+\newblock Cracking captchas.
+
+\bibitem{resnet}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
+\bibitem{readingtext}
+M.~Jaderberg, K.~Simonyan, A.~Vedaldi, and A.~Zisserman.
+\newblock Reading text in the wild with convolutional neural networks.
+\newblock {\em CoRR}, abs/1412.1842, 2014.
+
+\bibitem{adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980, 2014.
+
+\bibitem{fpn}
+T.~Lin, P.~Doll{\'{a}}r, R.~B. Girshick, K.~He, B.~Hariharan, and S.~J.
+  Belongie.
+\newblock Feature pyramid networks for object detection.
+\newblock {\em CoRR}, abs/1612.03144, 2016.
+
+\bibitem{fl}
+T.-Y. Lin, P.~Goyal, R.~Girshick, K.~He, and P.~Doll{\'a}r.
+\newblock Focal loss for dense object detection.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  2018.
+
+\bibitem{ssd}
+W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~E. Reed, C.~Fu, and A.~C. Berg.
+\newblock {SSD:} single shot multibox detector.
+\newblock {\em CoRR}, abs/1512.02325, 2015.
+
+\bibitem{otsu}
+N.~Otsu.
+\newblock A threshold selection method from gray-level histograms.
+\newblock {\em IEEE transactions on systems, man, and cybernetics},
+  9(1):62--66, 1979.
+
+\bibitem{yolov3}
+J.~Redmon and A.~Farhadi.
+\newblock Yolov3: An incremental improvement.
+\newblock {\em arXiv}, 2018.
+
+\bibitem{faster}
+S.~Ren, K.~He, R.~B. Girshick, and J.~Sun.
+\newblock Faster {R-CNN:} towards real-time object detection with region
+  proposal networks.
+\newblock {\em CoRR}, abs/1506.01497, 2015.
+
+\bibitem{stark2015captcha}
+F.~Stark, C.~Haz{\i}rbas, R.~Triebel, and D.~Cremers.
+\newblock Captcha recognition with active deep learning.
+\newblock In {\em GCPR Workshop on New Challenges in Neural Computation},
+  volume~10, 2015.
+
+\bibitem{synth}
+R.~Z. Tuan Anh~Le, Atilim Giineş~Baydin and F.~Wood.
+\newblock Using synthetic data to train neural networks is model-based
+  reasoning.
+\newblock {\em Neural Networks (IJCNN) 2017 International Joint Conference},
+  pages 3514--3521, 2017.
+
+\bibitem{zhaocaptcha}
+N.~Zhao, Y.~Liu, and Y.~Jiang.
+\newblock Captcha breaking with deep learning.
+
+\end{thebibliography}

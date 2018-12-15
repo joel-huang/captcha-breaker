@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.23)  23 OCT 2018 08:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.23)  3 DEC 2018 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -156,31 +156,67 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2018/09/02 1.7 listings language file
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@caption@flags=\count111
+\c@ContinuedFloat=\count112
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count113
+\c@subtable=\count114
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-
-LaTeX Warning: Unused global option(s):
-    [9pt].
-
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2018/09/02 1.7 listings language file
+)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -216,52 +252,283 @@ LaTeX Font Info:    ... okay on input line 48.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count111
+\c@lstlisting=\count115
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen124
+\scratchcounter=\count116
+\scratchdimen=\dimen133
 \scratchbox=\box30
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count117
+\nofMParguments=\count118
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen125
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen134
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
 \everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 49.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
+Underfull \hbox (badness 5681) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 We frame the CAPTCHA-breaking task as a
+ []
+
+<text_based_captcha.PNG, id=1, 302.63063pt x 218.8175pt>
+File: text_based_captcha.PNG Graphic file (type png)
+<use text_based_captcha.PNG>
+Package pdftex.def Info: text_based_captcha.PNG  used on input line 67.
+(pdftex.def)             Requested size: 498.66258pt x 360.5625pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
+] [2 <./text_based_captcha.PNG>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+<8908_X4F2.png, id=20, 200.75pt x 75.28125pt>
+File: 8908_X4F2.png Graphic file (type png)
+<use 8908_X4F2.png>
+Package pdftex.def Info: 8908_X4F2.png  used on input line 92.
+(pdftex.def)             Requested size: 37.57925pt x 14.09221pt.
+<noiseless.png, id=21, 117.43875pt x 51.19125pt>
+File: noiseless.png Graphic file (type png)
+<use noiseless.png>
+Package pdftex.def Info: noiseless.png  used on input line 97.
+(pdftex.def)             Requested size: 46.97478pt x 20.47612pt.
 
-] (./main.aux) ) 
+Underfull \hbox (badness 3482) in paragraph at lines 105--105
+[]\OT1/cmr/bx/n/12 Learning la-bels from Syn-thetic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
+
+ []
+
+<bw.PNG, id=22, 72.27pt x 24.09pt>
+File: bw.PNG Graphic file (type png)
+<use bw.PNG>
+Package pdftex.def Info: bw.PNG  used on input line 115.
+(pdftex.def)             Requested size: 46.97478pt x 15.6583pt.
+<synthbw.png, id=23, 72.27pt x 24.09pt>
+File: synthbw.png Graphic file (type png)
+<use synthbw.png>
+Package pdftex.def Info: synthbw.png  used on input line 121.
+(pdftex.def)             Requested size: 46.97478pt x 15.6583pt.
+[3 <./8908_X4F2.png (PNG copy)> <./noiseless.PNG> <./bw.png (PNG copy)> <./synt
+hbw.png (PNG copy)>]
+Underfull \hbox (badness 4144) in paragraph at lines 155--156
+\OT1/cmr/m/n/10 Our fi-nal com-bined dataset con-sists of $50\OML/cmm/m/it/10 ;
+ \OT1/cmr/m/n/10 000$
+ []
+
+
+Overfull \hbox (2.59503pt too wide) in paragraph at lines 157--166
+ [] 
+ []
+
+<samples.png, id=31, 655.95062pt x 759.33687pt>
+File: samples.png Graphic file (type png)
+<use samples.png>
+Package pdftex.def Info: samples.png  used on input line 170.
+(pdftex.def)             Requested size: 498.66258pt x 577.26422pt.
+<color_chars.png, id=32, 356.33125pt x 239.89626pt>
+File: color_chars.png Graphic file (type png)
+<use color_chars.png>
+Package pdftex.def Info: color_chars.png  used on input line 182.
+(pdftex.def)             Requested size: 234.87752pt x 158.12701pt.
+<sutd_chars.png, id=33, 355.3275pt x 239.89626pt>
+File: sutd_chars.png Graphic file (type png)
+<use sutd_chars.png>
+Package pdftex.def Info: sutd_chars.png  used on input line 183.
+(pdftex.def)             Requested size: 234.87752pt x 158.58092pt.
+<bw_chars.png, id=34, 355.3275pt x 238.8925pt>
+File: bw_chars.png Graphic file (type png)
+<use bw_chars.png>
+Package pdftex.def Info: bw_chars.png  used on input line 184.
+(pdftex.def)             Requested size: 234.87752pt x 157.9174pt.
+<sutd_pca.png, id=35, 728.7225pt x 574.145pt>
+File: sutd_pca.png Graphic file (type png)
+<use sutd_pca.png>
+Package pdftex.def Info: sutd_pca.png  used on input line 190.
+(pdftex.def)             Requested size: 234.87752pt x 185.05302pt.
+<bw_pca.png, id=36, 729.72626pt x 574.145pt>
+File: bw_pca.png Graphic file (type png)
+<use bw_pca.png>
+Package pdftex.def Info: bw_pca.png  used on input line 191.
+(pdftex.def)             Requested size: 234.87752pt x 184.79897pt.
+<sutd_tsne.png, id=37, 728.7225pt x 1104.125pt>
+File: sutd_tsne.png Graphic file (type png)
+<use sutd_tsne.png>
+Package pdftex.def Info: sutd_tsne.png  used on input line 197.
+(pdftex.def)             Requested size: 234.87752pt x 355.8712pt.
+<bw_tsne.png, id=38, 729.72626pt x 574.145pt>
+File: bw_tsne.png Graphic file (type png)
+<use bw_tsne.png>
+Package pdftex.def Info: bw_tsne.png  used on input line 198.
+(pdftex.def)             Requested size: 234.87752pt x 184.79897pt.
+
+Underfull \hbox (badness 6842) in paragraph at lines 208--208
+[]\OT1/cmr/bx/n/12 Early at-tempts at al-go-rith-mic
+ []
+
+[4] [5 <./samples.png (PNG copy)>] [6 <./color_chars.png> <./sutd_chars.png> <.
+/bw_chars.png> <./sutd_pca.png> <./bw_pca.png>]
+<0_aWlV8o_original.png, id=53, 200.75pt x 75.28125pt>
+File: 0_aWlV8o_original.png Graphic file (type png)
+<use 0_aWlV8o_original.png>
+Package pdftex.def Info: 0_aWlV8o_original.png  used on input line 233.
+(pdftex.def)             Requested size: 46.97478pt x 17.61526pt.
+<0_aWlV8o.png, id=54, 200.75pt x 75.28125pt>
+File: 0_aWlV8o.png Graphic file (type png)
+<use 0_aWlV8o.png>
+Package pdftex.def Info: 0_aWlV8o.png  used on input line 238.
+(pdftex.def)             Requested size: 46.97478pt x 17.61526pt.
+ [7 <./sutd_tsne.png> <./bw_tsne.png>]
+<results.PNG, id=61, 1445.4pt x 722.7pt>
+File: results.PNG Graphic file (type png)
+<use results.PNG>
+Package pdftex.def Info: results.PNG  used on input line 258.
+(pdftex.def)             Requested size: 498.66258pt x 249.33176pt.
+<resultscolor.png, id=62, 903.375pt x 441.65pt>
+File: resultscolor.png Graphic file (type png)
+<use resultscolor.png>
+Package pdftex.def Info: resultscolor.png  used on input line 280.
+(pdftex.def)             Requested size: 498.66258pt x 243.79779pt.
+<resultsnoiseless.png, id=63, 644.4075pt x 462.72874pt>
+File: resultsnoiseless.png Graphic file (type png)
+<use resultsnoiseless.png>
+Package pdftex.def Info: resultsnoiseless.png  used on input line 287.
+(pdftex.def)             Requested size: 398.93158pt x 286.47227pt.
+<failurecolor.png, id=64, 735.74875pt x 418.56375pt>
+File: failurecolor.png Graphic file (type png)
+<use failurecolor.png>
+Package pdftex.def Info: failurecolor.png  used on input line 294.
+(pdftex.def)             Requested size: 498.66258pt x 283.6935pt.
+<unseen.png, id=65, 658.46pt x 468.75125pt>
+File: unseen.png Graphic file (type png)
+<use unseen.png>
+Package pdftex.def Info: unseen.png  used on input line 301.
+(pdftex.def)             Requested size: 498.66258pt x 355.00294pt.
+
+Underfull \vbox (badness 1910) has occurred while \output is active []
+
+ [8 <./0_aWlV8o_original.png (PNG copy)> <./0_aWlV8o.png (PNG copy)>] [9 <./res
+ults.png> <./resultscolor.png>] [10 <./resultsnoiseless.png> <./failurecolor.pn
+g>] [11 <./unseen.png>] (./main.bbl
+Underfull \hbox (badness 3229) in paragraph at lines 13--16
+\OT1/cmr/m/n/10 A. Zis-ser-man.  Read-ing text in the wild
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 13--16
+\OT1/cmr/m/n/10 with con-vo-lu-tional neu-ral net-works.  \OT1/cmr/m/it/10 CoRR
+\OT1/cmr/m/n/10 ,
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 23--27
+[]\OT1/cmr/m/n/10 T. Lin, P. Doll^^Sar, R. B. Gir-shick, K. He,
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 23--27
+\OT1/cmr/m/n/10 B. Har-i-ha-ran, and S. J. Be-longie.  Fea-ture
+ []
+
+) [12] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3525 strings out of 494587
- 47006 string characters out of 6177424
- 303316 words of memory out of 5000000
- 7148 multiletter control sequences out of 15000+600000
- 9358 words of font info for 36 fonts, out of 8000000 for 9000
+ 5552 strings out of 494587
+ 81888 string characters out of 6177424
+ 338535 words of memory out of 5000000
+ 9088 multiletter control sequences out of 15000+600000
+ 13564 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,8n,49p,259b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t12.pfb>
-Output written on main.pdf (1 page, 50270 bytes).
+ 41i,8n,49p,1259b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+>
+Output written on main.pdf (12 pages, 1916198 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
